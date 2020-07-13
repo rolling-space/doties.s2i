@@ -1,0 +1,10 @@
+alias bsp='bin/spring'
+alias bsps='bsp start'
+alias bspx='bsp stop'
+alias bspps='bsp status'
+alias bspsrv='bsp server'
+
+alias bb='bin/bundle'
+alias bbe='bin/bundle exec'
+
+alias bgr='bin/guard'

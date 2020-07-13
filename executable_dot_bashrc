@@ -1,0 +1,23 @@
+# .bashrc
+
+# User specific aliases and functions
+
+alias rm='rm -i'
+alias cp='cp -i'
+alias mv='mv -i'
+
+alias bor='bin/rails'
+alias borc='bor c'
+alias borg='bor g'
+alias borx='bor d'
+
+alias ll='ls -al --color'
+
+# Source global definitions
+if [ -f /etc/bashrc ]; then
+	. /etc/bashrc
+fi
+
+if [ -f /etc/bash_aliases ]; then
+	. /etc/bash_aliases
+fi

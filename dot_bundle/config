@@ -1,0 +1,5 @@
+---
+BUNDLE_PATH: "/opt/app-root/vendor/bundle"
+BUNDLE_JOBS: "8"
+BUNDLE_RETRY: "3"
+BUNDLE_BUILD__PG: "--with-pg-config=/usr/pgsql-10/bin/pg_config"
